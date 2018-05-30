@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CasterKotlin</string>
+    <string name="title_activity_pokemon">PokemonActivity</string>
+    <string name="p0">Pokemon Zero</string>
+    <string name="p1">Pokemon One</string>
+    <string name="p2">Pokemon Two</string>
+    <string name="p3">Pokemon Three</string>
+    <string name="p4">Pokemon Four</string>
+    <string name="p5">Pokemon Five</string>
 </resources>

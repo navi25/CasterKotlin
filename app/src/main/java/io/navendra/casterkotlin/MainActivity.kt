@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import io.navendra.casterkotlin.pokemon.PokemonActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openCounterActivity(v: View){
-        var i = Intent(this,CounterActivity::class.java)
+        var i = Intent(this, PokemonActivity::class.java)
         startActivity(i)
     }
 }

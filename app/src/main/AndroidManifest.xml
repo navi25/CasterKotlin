@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CounterActivity">
-
-        </activity>
+        <activity android:name=".CounterActivity"/>
+        <activity android:name=".pokemon.PokemonActivity"/>
+        <activity android:name=".pokemon.PokemonDetailActivity"/>
     </application>
 
 </manifest>

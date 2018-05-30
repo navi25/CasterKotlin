@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/p5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/p5"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/p4"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/p3"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/p2"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/p1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/p0"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:text="@string/p0"
+        android:textAlignment="center" />
+</LinearLayout>
